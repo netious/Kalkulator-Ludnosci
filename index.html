@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Ludności</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="kontener">
+    <h1>Kalkulator Ludności</h1>
+    <div class="formularz-ludnosci">
+      <input type="text" id="miasto" placeholder="Wpisz nazwę miasta">
+      <input type="number" id="powierzchnia" placeholder="Wpisz powierzchnię w km²">
+      <input type="number" id="ludnosc" placeholder="Wpisz liczbę ludności">
+      <button onclick="obliczGestosc()">Oblicz</button>
+      <button onclick="wyczyscDane()">Wyczyść</button>
+    </div>
+    <div class="wyniki">
+      <p id="nazwaMiasta">Miasto: Brak</p>
+      <p id="gestoscZaludnienia">Gęstość zaludnienia: 0 osób/km²</p>
+    </div>
+  </div>
+
+  <script src="dowalonySkrypt.js"></script>
+</body>
+</html>
